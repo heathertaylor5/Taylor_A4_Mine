@@ -264,17 +264,17 @@ namespace Lab5
          *This function count the number of items in the list that are odd.*/
         private int CountOdd()
         {
-            int counter = 0//;
+            int counter = 0;
             int numOdd = 0;
 
             do
             {
                 int value = Convert.ToInt32(lstNumbers.Items[counter]);
-                //int oddCheck = value % 2;    
+                int oddCheck = value % 2;    
                 
                 if (oddCheck >= 1)
                 { 
-                    //numOdd++;
+                    numOdd++;
                     counter++;
                 }
                 else
